@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: #0b101a;
+    background-color: #2d6ad8;
     color: white;
 }
 
@@ -43,7 +43,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: #195ad4;
+    background-color: #2d6ad8;
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -60,7 +60,7 @@ header nav ul li a:hover {
 }
 
 .hero button {
-    background-color: #f73918;
+    background-color: #ff6347;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -197,7 +197,7 @@ form label {
     font-size: 18px;
 }
 
-form input, form select {
+form input, form select, form textarea {
     padding: 10px;
     width: 300px;
     font-size: 16px;
@@ -205,7 +205,7 @@ form input, form select {
 
 form button {
     padding: 10px 20px;
-    background-color: #0a51d6;
+    background-color: #2d6ad8;
     color: white;
     border: none;
     font-size: 18px;
@@ -218,7 +218,7 @@ form button:hover {
 
 /* Footer */
 footer {
-    background-color: #0a50d1;
+    background-color: #2d6ad8;
     color: white;
     text-align: center;
     padding: 10px;
