@@ -1,0 +1,228 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #0b101a;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #195ad4;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    background-color: #f73918;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #e53e2f;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* Program Section */
+.program {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.program h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.program-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.program-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.program-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 16px;
+}
+
+/* Fasilitas Section */
+.fasilitas {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.fasilitas h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.fasilitas ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+/* Testimoni Section */
+.testimoni {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimoni h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.testimoni-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimoni-card {
+    background-color: #f4f4f9;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.testimoni-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimoni-card span {
+    font-style: italic;
+}
+
+/* Daftar Section */
+.daftar {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.daftar h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form input, form select {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0a51d6;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f4d91;
+}
+
+/* Footer */
+footer {
+    background-color: #0a50d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
